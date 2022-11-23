@@ -1,0 +1,45 @@
+[[stork]]
+arch = "aarch64"
+git-tree-sha1 = "21e95d7df32f680cc774e684e166493d61dad7d5"
+libc = "glibc"
+os = "linux"
+
+    [[stork.download]]
+    sha256 = "0fcc01a23684bf2b8e553ebe909777de721ab78566437bbcc004d516a5a99b65"
+    url = "https://github.com/JuliaBinaryWrappers/stork_jll.jl/releases/download/stork-v1.5.0+0/stork.v1.5.0.aarch64-linux-gnu.tar.gz"
+[[stork]]
+arch = "aarch64"
+git-tree-sha1 = "bf19ed54e339b7875ce12b13e8cfa88c14944753"
+libc = "musl"
+os = "linux"
+
+    [[stork.download]]
+    sha256 = "872f435522b3b03aae638644cb47f916ffce6ce8236ef0a6e9ba1f4555253e1b"
+    url = "https://github.com/JuliaBinaryWrappers/stork_jll.jl/releases/download/stork-v1.5.0+0/stork.v1.5.0.aarch64-linux-musl.tar.gz"
+[[stork]]
+arch = "powerpc64le"
+git-tree-sha1 = "36ff7ecfcca44ce5c46cf1442b8a3f0000925de3"
+libc = "glibc"
+os = "linux"
+
+    [[stork.download]]
+    sha256 = "82b137ba84b81f26b9ba8018001b3d5b3f6f5fe98adaf3927de1e6b8eedf8ce7"
+    url = "https://github.com/JuliaBinaryWrappers/stork_jll.jl/releases/download/stork-v1.5.0+0/stork.v1.5.0.powerpc64le-linux-gnu.tar.gz"
+[[stork]]
+arch = "x86_64"
+git-tree-sha1 = "f0a6f9e3bc32a7eaf5a3c5f3aa3adc66e898873d"
+libc = "glibc"
+os = "linux"
+
+    [[stork.download]]
+    sha256 = "d5fc934b4d6db575a691608d4475edd03d3a6404c26e96178c04ef96c9164949"
+    url = "https://github.com/JuliaBinaryWrappers/stork_jll.jl/releases/download/stork-v1.5.0+0/stork.v1.5.0.x86_64-linux-gnu.tar.gz"
+[[stork]]
+arch = "x86_64"
+git-tree-sha1 = "4f9285bcef55357bc99879b868a194a99ecba4be"
+libc = "musl"
+os = "linux"
+
+    [[stork.download]]
+    sha256 = "0bdafc33e9931ca7f683f65e8e58a8bbb7e83bd5024940f26a79e124592942df"
+    url = "https://github.com/JuliaBinaryWrappers/stork_jll.jl/releases/download/stork-v1.5.0+0/stork.v1.5.0.x86_64-linux-musl.tar.gz"
